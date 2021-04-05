@@ -35,7 +35,6 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -60,9 +59,7 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
-
-            </plugin>
-        <!-- Build an executable JAR -->
+      <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
